@@ -2,9 +2,9 @@ import React from 'react';
 import { SectionId } from '../types';
 
 const founders = [
-  { name: "Nos!", role: "Strategy & Systems" },
-  { name: "Bolupeak", role: "Creative Systems" },
-  { name: "3Hunna", role: "Engineering Lead" }
+  { name: "Nos!" },
+  { name: "Bolupeak" },
+  { name: "3Hunna" }
 ];
 
 const stewards = [
@@ -33,7 +33,6 @@ export const Team: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-brand-dark">{person.name}</h4>
-                    <p className="text-brand-muted">{person.role}</p>
                   </div>
                 </div>
               ))}
