@@ -2,73 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stacks AI Guild Bootcamp</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              mono: ['Space Grotesk', 'monospace'],
-            },
-            colors: {
-              brand: {
-                bg: '#F9FAFB', // Very light gray/white
-                dark: '#0F1121', // Deep Navy/Black
-                card: '#1A1C2E', // Dark card background
-                primary: '#4F46E5', // Indigo
-                accent: '#818CF8', // Soft Indigo
-                lavender: '#EEF2FF',
-                highlight: '#06B6D4', // Cyan
-                muted: '#64748B', // Slate 500
-              }
-            },
-            borderRadius: {
-              '4xl': '2rem',
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      body {
-        background-color: #F9FAFB;
-        color: #0F1121;
-        overflow-x: hidden;
-      }
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #F1F5F9;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #CBD5E1;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #94A3B8;
-      }
-    </style>
   <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "three": "https://aistudiocdn.com/three@^0.181.2",
-    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
     "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
